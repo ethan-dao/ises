@@ -5,9 +5,9 @@ import torch.nn as nn
 import torch.nn.functional as F
 
 #Load data
-train_raw = pd.read_csv('/Users/irisgu/VisualStudioCode/ises/data/train_MPRA.txt', delimiter='\t', header=None)
-test_raw = pd.read_csv('/Users/irisgu/VisualStudioCode/ises/data/test_MPRA.txt', delimiter='\t', header=None)
-train_sol = pd.read_csv('/Users/irisgu/VisualStudioCode/ises/data/trainsolutions.txt', delimiter='\t', header=None)
+train_raw = pd.read_csv('/Users/ethandao/Desktop/cbshackathon/ises/data/train_MPRA.txt', delimiter='\t', header=None)
+test_raw = pd.read_csv('/Users/ethandao/Desktop/cbshackathon/ises/data/test_MPRA.txt', delimiter='\t', header=None)
+train_sol = pd.read_csv('/Users/ethandao/Desktop/cbshackathon/ises/data/trainsolutions.txt', delimiter='\t', header=None)
 
 strand_length = 295
 
